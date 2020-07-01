@@ -53,7 +53,3 @@ lien.href="https://www.google.fr"
       //et faire en sorte qu'il s'ouvre dans un nouvel onglet
 lien.setAttribute("target", "_blank")
 
-
-//11. DUPLIQUER l'assiette avec une fonction faite pour ça,
-// et mettre la nouvelle assiette tout en bas
-// (en dessous de la 1ere)
