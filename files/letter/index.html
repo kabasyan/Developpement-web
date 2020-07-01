@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Letter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- pour pouvoir utiliser les media query  -->
+    <style> 
+      /* DEBUT PARTIE CSS */
+          *{
+            outline: 0;
+            margin :0;
+            padding: 0;
+          }
+          .inner{
+            padding: 0 5%;
+            margin-top: 30vh;
+          }
+          
+          .box_area{
+            border: 1px solid lightgray;
+            background-color:#fff;
+            width:18rem;
+            height:5rem;
+            display: block;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+          }
+
+          #zoneTexte{
+            border:none;
+            width: 60%;
+            height:0rem;
+            padding: 1rem;
+            font-size: 1rem;
+          }
+
+          #compteur{
+            border-left: 2px solid lightgray;
+            width:29%;
+            height:2rem;
+            text-align:center;
+            font-size: 2rem;
+            display: block;
+            margin:0 auto;
+          }
+
+    @media screen and (min-width:768px) and (max-width:1023px){
+          .box_area{
+            width:28rem;
+            height:12rem;
+          }
+
+          #zoneTexte{
+            font-size: 1.5rem;
+          }
+    }
+
+    @media screen and (min-width:1024px){
+          .box_area{
+            width:35rem;
+            height:14rem;
+          }
+
+          #zoneTexte{
+            font-size: 1.8rem;
+          }
+    }
+    /* FIN PARTIE CSS */
+    </style>
+  </head>
+
+
+
+
+
+  <body>
+<!-- DEBUT PARTIE HTML -->
+      <div class="inner">
+        <div class="box_area">
+          <textarea id="zoneTexte" ></textarea>
+          <div id="compteur">0</div>
+       </div>
+      </div>
+<!-- FIN PARTIE HTML -->
+
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

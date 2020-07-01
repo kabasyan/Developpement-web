@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Slider</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- pour pouvoir utiliser les media query  -->
+    <style> 
+      /* DEBUT PARTIE CSS */
+          *{
+            outline: 0;
+            margin :0;
+            padding: 0;
+          }
+          
+          .inner{
+            padding: 0;
+            margin-top: 30vh;
+          }
+          
+          .box_area{
+            /* border: 1px solid lightgray; */
+            /* background-color:green; */
+            width:25rem;
+            height:13rem;
+            display: block;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+          }
+
+          .zoneSlider{
+            /* border: 1px solid red; */
+            width: 90%;
+            height:15rem;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+          }
+
+          button{
+            width:15%;
+            height: 10%;
+          }
+
+          
+
+    @media screen and (min-width:768px) and (max-width:1023px){
+          .box_area{
+            width:45rem;
+            height:12rem;
+          }
+
+          button{
+            width:11%;
+          }
+    }
+
+    @media screen and (min-width:1024px){
+          .box_area{
+            width:45rem;
+            height:12rem;
+          }
+
+          button{
+            width:11%;
+          }
+    }
+    /* FIN PARTIE CSS */
+    </style>
+  </head>
+
+
+
+
+
+  <body>
+<!-- DEBUT PARTIE HTML -->
+<div class="inner">
+
+  <div class="box_area">
+    <div class="zoneSlider">
+      <button onclick="prev()">Prev</button>
+      <img id="slider" src="img/inte.png" width="200px" height="200px">
+      <button onclick="next()">Next</button>
+    </div>
+  </div>
+
+</div>
+<!-- FIN PARTIE HTML -->
+
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
