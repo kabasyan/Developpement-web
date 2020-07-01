@@ -14,13 +14,3 @@ Le HTML de base du burger est founi dans le repository.
  * Prendre le lien 'documentation officielle' et:
    * faire en sorte qu'il s'ouvre dans un nouvel onglet
    * modifier l'adresse du lien pour mettre https://www.google.fr
- * DUPLIQUER l'assiette avec une fonction faite pour ça, et mettre la nouvelle assiette tout en bas (en dessous de la 1ere)
-
-Vous devez utiliser au moins une fois chacune des méthodes de sélection suivantes:
-* getElementById
-* getElementsByTagName
-* getElementsByClassName
-* querySelector
-* querySelectorAll
-
-Idéalement utilisez lorsque c'est adapté la propriété "children" d'un élément, pour accéder aux éléments enfants.
