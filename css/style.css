@@ -1,0 +1,308 @@
+
+/***** DEBUT UNIVERSELLE **************************************/
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+
+body{
+  font-size: 4vw; /*taille de font pour les appareils mobiles d etype smartphone*/
+  /* font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif; */
+
+  font-family: Avenir,Helvetica,Arial,sans-serif;
+  font-weight: lighter;
+}
+
+
+header{
+  padding-top:2rem;
+  margin: 1rem;
+  height: 6rem;
+  border : 1px solid #E6E6E6;
+
+  /* background-image:url('../img/bgc2.jpeg');
+             background-size:cover;
+        margin:0;
+        background-repeat: no-repeat;
+       background-attachment: inherit; */
+}
+
+
+
+.block{
+padding:5rem 1.5rem;
+}
+
+.bgc{
+  /* background-image:url('../img/bgc.jpg');
+             background-size:cover;
+        margin:0;
+        background-repeat: no-repeat;
+       background-attachment: inherit; */
+       background-color: #F6F6F6;
+}
+
+
+
+h2{
+  text-align: center;
+  margin-bottom: 1.5vh;
+  color: #585858;
+  font-size: 1.3rem;
+}
+
+h1{
+    text-align: center;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+
+
+p{
+  text-align: justify;
+}
+
+span{
+  color:#585858;
+  font-weight: 600;
+}
+
+
+img{
+  width: 100%;
+  display: block;
+  margin:0 auto;
+  border:1px solid transparent;
+}
+
+.img_js{
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 2rem;
+}
+
+img.zv{
+  width: 85%;
+}
+
+
+
+.bouton{
+  width:15rem;
+  border:1px solid #000;
+  color:#000;
+  text-align: center;
+  margin:1.3vh auto;
+  padding:0.5vh 0;
+}
+
+.bouton:hover{
+  border:1px solid #000;
+  color:#FFF;
+  background-color: #000;
+}
+
+.first{
+  margin-top: 3rem;
+}
+
+.last{
+  margin-bottom:4rem;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+
+/***** FIN UNIVERSELLE  **************************************/
+
+
+
+/***** DEBUT FOOTER **************************************/
+footer{
+  width: 100%;
+  padding:0.7rem;
+  border-top: 1px solid #D3D3D3;
+  background-color: #F6F6F6;
+}
+
+footer p{
+  text-align: center;
+  padding: 1% 0;
+  color:#000;
+}
+/***** FIN FOOTER **************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1023px){
+
+  /***** DEBUT UNIVERSELLE **************************************/
+  body{
+    font-size: 16px;
+  }
+
+  #main {
+    width: 100%;
+    border:1px solid transparent;
+  }
+
+
+  header{
+    margin: 2vh auto;
+    height: 7rem;
+    width:38rem;
+    display: block;
+  }
+
+
+    .block{
+      width: 100%;
+      display: block;
+      }
+
+
+    .bgc{
+      background-color: #F6F6F6;
+      }
+
+
+      .sous_block{
+      width: 38rem;
+      margin:0 auto;
+      border:1px solid transparent;
+      }
+
+
+    h2{
+      font-size: 1.5rem;
+    }
+
+    h1{
+      font-size: 2.8rem;
+    }
+
+
+
+    img{
+      width: 60%;
+      display: block;
+      margin:0 auto;
+      
+    }
+
+    .img_js{
+      width: 50%;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 2rem;
+    }
+
+    img.zv{
+      width: 65%;
+    }
+
+/***** DEBUT UNIVERSELLE   **************************************/
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:1024px) {
+  /***** DEBUT UNIVERSELLE **************************************/
+
+  body {
+    font-size: 16px;
+  }
+
+  #main {
+    width: 100%;
+    border:1px solid transparent;
+  }
+
+  header{
+    margin: 2vh auto;
+    height: 7rem;
+    width:50rem;
+    display: block;
+  }
+
+
+.block{
+  width: 100%;
+  display: block;
+  }
+
+.bgc{
+  background-color: #F6F6F6;
+  }
+
+
+  .sous_block{
+  width: 50rem;
+  margin:0 auto;
+  border:1px solid transparent;
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+
+  .unity{
+    width: 62rem;
+  }
+
+
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+  h1{
+    font-size: 3rem;
+  }
+
+  img{
+    width: 60%;
+    display: block;
+    margin:0 auto;
+  }
+
+
+  img.zv{
+    width: 65%;
+  }
+  /***** FIN UNIVERSELLE **************************************/
+
+
+}
